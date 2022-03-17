@@ -10,3 +10,39 @@
     background-size: cover;
     position: relative;
 }
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+nav .nav-link{
+    flex: 1;
+    text-align: right;
+}
+nav .nav-link ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left:  12px;
+    position: relative;
+}
+nav .nav-link ul li a{
+    color: #ddd;
+    text-decoration: none;
+    font-size: 13px;
+}
+nav .nav-link ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: red;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+}
+nav .nav-link ul li:hover::after{
+    width: 100%;
+}
