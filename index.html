@@ -12,8 +12,8 @@
     <section class="header">
         <nav>
             <a href="index.html"><img src="images/logo.png" alt=""></a>
-            <div class="nav-link">
-                <i class="fa fa-times"></i>
+            <div class="nav-link" id="navLink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
@@ -23,7 +23,7 @@
 
                 </ul>
             </div>
-            <i class="fa fa-bars"></i>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
         <div class="text-box">
             <h1>World's Biggest University</h1>
@@ -35,6 +35,15 @@
             
         </div>    
     </section>
-    
+    <!-- Javascrip to show and hide menu -->
+    <script>
+        var navLink = document.getElementById('navLink');
+        function showMenu(){
+            navLink.style.right="0";
+        }
+        function hideMenu(){
+            navLink.style.right="-200px";
+        }
+    </script>
 </body>
 </html>
