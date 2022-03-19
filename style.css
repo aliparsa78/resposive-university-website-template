@@ -301,3 +301,12 @@ nav .fa{
         margin-top: 20px;
         margin-bottom: 20px;
     }
+    .icons .fa{
+        margin: 0 10px;
+        color: #f44336;
+        cursor: pointer;
+        padding: 18px 0;
+    }
+    .fa-heart-o{
+        color: #f44336;   
+    }
