@@ -290,3 +290,14 @@ nav .fa{
             font-size: 24px;
         } 
     }
+    /* Footer */
+    .footer{
+        width: 100%;
+        text-align: center;
+        padding: 30px 0;
+    }
+    .footer h4{
+        font-weight: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
