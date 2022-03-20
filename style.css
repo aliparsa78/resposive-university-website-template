@@ -324,3 +324,26 @@ nav .fa{
         text-align: center;
         margin-top: 100px;
     }
+    .about-us{
+        width: 80%;
+        margin: auto;
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    .about-col{
+        flex-basis: 49%;
+        padding: 20px 2px;
+        text-align: left;
+    }
+    .about-col img{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .about-col p{
+        padding: 20px 10px 0;
+        text-align: left;
+    }
+    #btn-hero{
+        border: 1px solid #f44336;
+        color: darkred;
+    }
