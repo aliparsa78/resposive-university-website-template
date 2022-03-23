@@ -415,3 +415,50 @@ nav .fa{
             
         }
     }
+    /* location */
+    .location{
+        width: 80%;
+        margin: auto;
+        padding: 40px 0;
+    }
+    .location iframe{
+        width: 100%;
+    }
+    .contact-us{
+        width: 80%;
+        margin: auto;
+        display: flex;
+    }
+    .contact-us .contact-col{
+        width: 100%;
+        flex-basis: 50%;
+    }
+    .contact-us .contact-col div{
+        display: flex;
+    }
+    .contact-us .contact-col h5{
+        font-weight: 700px;
+        font-size: 20px;
+        padding: 0 40px;
+    }
+    .contact-us .contact-col .fa{
+        color: #f44336;
+    }
+    .contact-us .contact-col p{
+        margin-left: 40px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .contact-col input, .contact-col textarea{
+        width: 100%;
+        margin: 15px 0;
+        padding: 7px 0;
+    }
+    .btn-red{
+        border: solid #f44336 1px;
+        background: #fff3ff;
+        color: #222;
+        height: 40px;
+        font-weight: bold;
+        width: 30px;
+    }
