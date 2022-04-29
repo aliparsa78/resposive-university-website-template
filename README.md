@@ -1,3 +1,3 @@
 # resposive-university-website-template
 
-jUSt Html and Css used
+Just Html & Css are used for this template
